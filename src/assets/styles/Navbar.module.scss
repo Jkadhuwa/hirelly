@@ -1,0 +1,77 @@
+.container{
+    height: 4rem;
+    display: flex;
+    border-bottom: 1px solid #EDEBE9 ;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 2;
+    z-index: 99;
+    position: sticky;
+    background-color: #FAF8F6;
+    top: 0;
+
+
+    .searchBox {
+        border: 0px solid;
+        background: #FAF8F6;
+        font-size: 1rem;
+        &:focus{
+            outline: none;
+        }
+        
+    }
+    
+    .topRight{
+        display: flex;
+        align-items: center;
+        
+        .notificationContainer{
+            display: flex;
+            align-self: center;
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            margin: 0 0.5em;
+    
+            .bell{
+                background-size: 10px 0.1rem;
+                cursor: pointer;
+                
+            }
+           
+
+            .notification{
+                color: #1A2089;
+                font-size: small;
+                margin-left: -14px;
+                height: fit-content;
+                width: fit-content;
+                border-radius: 50%;
+                background-color: white;
+                margin-top: 3px;
+                cursor: pointer;
+                font-weight: 700;
+            }
+        }
+    
+        .avatar{
+            height: 2rem;
+            width: 2rem;
+            border-radius: 50%;
+            background-color: #ffff;
+            margin: 0 0.5rem 0 0.5rem;
+            align-self: center;
+            margin: 0 0.5em;
+            cursor: pointer;
+         
+        }
+
+        .username{
+            align-self: center;
+            font-size: small;
+            margin: 0 0.5em;
+            cursor: pointer;
+            font-weight: 500;
+        }
+    }
+}

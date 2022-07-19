@@ -1,0 +1,80 @@
+.container{
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 1rem;
+   
+
+    .cardTitle{
+        color: #34333A;
+        font-weight: 400;
+        text-shadow: 0 1px;
+        font-size: 19px;
+        margin-bottom: 1rem;
+    }
+  
+        .appDiv{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+           
+
+            .leftSide{
+                display: flex;
+               
+                .companyPic{
+                    height: 2rem;
+                    width: 2rem;
+                    border-radius: 50%;
+                    background-color: #ebeaee;
+                    margin-right: 0.7rem;
+                }
+
+                .applicationDesc{
+                    font-size: 13px;
+                    .position{
+                        font-weight: 600;
+                       
+                    }
+                    .desc{
+                        margin-right: 0.5rem;
+                        color: #BFBEC1;
+                        font-size: small;
+                        font-weight: 400;
+                    }
+                }
+            
+            }
+          
+            .actions{
+               
+                display: flex;
+                min-width: 6rem;
+                justify-content: space-between;
+
+                .appStatus{
+                   border-radius: 5px;
+                    font-size: 12px;
+                    align-self: center;
+                    color: #D58786;
+                    background-color: #FEEFEF;
+                    padding: 0.1em 0.3rem
+
+                }
+
+            }
+      
+        }
+
+    }
+    .scheduleDiv{
+        margin-top: 0.25rem;
+        .link{ 
+            text-decoration: none;
+            font-size: 13px;
+            color: #232EC1;
+            font-weight: 600;
+        
+    }
+
+    }
+    

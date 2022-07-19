@@ -1,0 +1,36 @@
+[
+        {
+            "pic": "",
+            "position": "UI/UX Designer",
+            "company": "WPMUDEV",
+            "job_type": "Full-Time",
+            "remote_policy": "Remote",
+            "status": "7 days to apply"
+        },
+        
+        {
+            "pic": "",
+            "position": "Fullstack Software Engineer",
+            "company": "Airtel-Kenya",
+            "job_type": "Full-Time",
+            "remote_policy": "Onsite",
+            "status": "7 days to apply"
+        },
+        {
+            "pic": "",
+            "position": "Senior Frontend Engineer",
+            "company": "DigitalOcean",
+            "job_type": "Full-Time",
+            "remote_policy": "UK & Kenya",
+            "status": "7 days to apply"
+        },
+        {
+            "pic": "",
+            "position": "Senior Frontend Engineer",
+            "company": "DigitalOcean",
+            "job_type": "Full-Time",
+            "remote_policy": "UK & Kenya",
+            "status": "3 days to apply"
+        }
+        
+]

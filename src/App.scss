@@ -1,0 +1,22 @@
+
+.App{
+  display: flex;
+ 
+}
+
+  .sidebar{
+    margin: 0.5rem;
+    flex: 0.5;
+    position: sticky;
+    
+  }
+
+  .display-window{
+    display: flex;
+    flex-direction: column;
+    flex: 2.5;
+    padding-left: 1.5rem;
+    margin-right: 2rem;
+  
+  }
+

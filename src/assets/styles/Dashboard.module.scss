@@ -1,0 +1,88 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  //&::-webkit-scrollbar { width: 0 !important }
+  //overflow: -moz-scrollbars-none;
+  
+  .intro{
+   display: flex;
+   width: 100%;
+   margin-top: 12px;
+   
+    .titleSection{
+        flex: 1;
+     
+        .title{
+            line-height: 6px;
+        }
+        .description{
+           color: #5F5E63;
+           font-size: 14px;
+           font-weight: 500;
+        }
+    }
+
+
+    .dateFilter{
+       flex: 1;
+       margin-top: 12px;
+       
+
+       .dateButton{
+       float: right;
+       font-size:14px;
+       font-weight: 500;
+       background-color: #fff; 
+       border-radius: 7px;
+       border: 0px #fff;
+       padding: 0.5rem 1rem;
+       width: 6rem;
+       text-align: center;
+       }
+
+    }
+
+  }
+
+  .firstCardsLayer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+
+    .firstCard{
+      flex: 1.5;
+      margin-right: 1rem;
+    }
+    .secondCard{
+      flex: 1;
+     
+    }
+    .thirdCard{
+      margin-left: 1rem;
+      flex: 2;
+    }
+
+  }
+  .secondcardsLayer{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+    .recentCard{
+      flex: 1;
+      margin-right: 0.5rem;
+    }
+    .savedJobsCard{
+      flex: 1;
+      margin-left: 0.5rem;
+    }
+  }
+}
+// .html{
+//   overflow-y: scroll;
+// }
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; 
+}

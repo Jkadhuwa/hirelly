@@ -1,0 +1,53 @@
+.container{
+    height: calc(100vh - 15px);
+    background-color: #010516;
+    border-radius: 10px;
+    color: #E8E5DF;
+    position: sticky;
+
+    .logoContainer{
+        padding:1.5rem;
+
+        .title{
+            font-weight: 700; 
+            
+        }
+
+    }
+   
+  .sidebarMenuWrapper{
+
+    .sideMenuTitle{
+        text-transform: uppercase;
+        font-size: xx-small;
+        color: #7A7F8D;
+        margin: 0 1.5rem;
+    }
+   
+     .sidebarMenu{
+        padding: 0.7rem 0;
+        width: 12rem;
+       
+        .link{
+            text-decoration: none;
+            color: #A9ABB3;
+            font-size: small;
+            font-weight: 600;
+            padding: 0.7rem 1.5rem;
+            width:12rem;
+            
+           
+           }
+
+           .active{
+            background-color: #1430B4;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+           
+
+        }
+
+    }
+  }
+   
+}

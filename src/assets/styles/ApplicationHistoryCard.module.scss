@@ -1,0 +1,106 @@
+.container{
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 1rem;
+
+    .cardTitle{
+        color: #34333A;
+        font-weight: 400;
+        text-shadow: 0 1px;
+        font-size: 19px;
+    }
+    .dailyApplication{
+
+        .date{
+           color: #999A9E;
+           text-transform: uppercase;
+           font-size: x-small;
+           font-weight: 600;
+           margin: 1rem 0 0.5rem 0;
+        }
+        
+        .appDiv{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+           
+
+            .leftSide{
+                display: flex;
+               
+                .companyPic{
+                    height: 2rem;
+                    width: 2rem;
+                    border-radius: 50%;
+                    background-color: #ebeaee;
+                    margin-right: 0.7rem;
+                }
+
+                .applicationDesc{
+                    font-size: 13px;
+                    .position{
+                     
+                        font-weight: 600;
+                    }
+                    .desc{
+                        margin-right: 0.5rem;
+                        color: #BFBEC1;
+                        font-size: small;
+                        font-weight: 400;
+                    }
+                }
+            
+            }
+          
+            .actions{
+               
+                display: flex;
+                min-width: 6rem;
+                justify-content: space-between;
+
+                .appStatus{
+                   border-radius: 5px;
+                    font-size: 12px;
+                    align-self: center;
+                    padding: 0.1em 0.3rem
+
+                }
+                .inReview{
+                    color: #F8D3AD;
+                    background-color: #FFF4EE;
+                }
+                .declined{
+
+                    color: #ECA2A4;
+                    background-color: #FDEDEE;
+                }
+                .interview{
+                    color: #38994f
+
+                }
+                .moreInfo{
+                    padding-right: 0.5rem;
+                    font-size: 20px;
+                    font-weight: 600;
+
+                }
+
+            }
+      
+        }
+
+    }
+    .scheduleDiv{
+        margin-top: 1.5rem;
+        .link{
+            
+            text-decoration: none;
+            font-size: 13px;
+            color: #232EC1;
+            font-weight: 600;
+        
+    }
+
+    }
+    
+}

@@ -1,0 +1,96 @@
+.container{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+
+    .cardTitle{
+        font-weight: 600;
+        font-size: 17px;
+        margin-bottom: 1rem;
+
+    }
+
+    .dateSelector{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+
+        .dateDiv{
+            display: flex;
+            .day{
+                font-weight: 600;
+                margin-right: 0.5rem;
+            }
+            .date{
+                font-weight: 500;
+                font-size: 14px;
+                align-self: center;
+            }
+        }
+
+        .sliderDiv{
+            font-size: 14px;
+            .back{
+                font-weight: 200;
+                margin-right: 1rem;
+            }
+            .forward{
+                font-weight: 400;
+            }
+
+        }
+    }
+    
+
+    .meetingCard{
+        background-color: #F2F2FD;
+        border-radius: 5px;
+        border: #8388bf 0.13rem solid;
+        display: flex;
+        padding: 0.5rem;
+        justify-content: space-between;
+        align-items: center;
+
+        .interviewerDiv{
+            display: flex;
+    
+            .interviewerPic{
+                height: 2rem;
+                width: 2rem;
+                border-radius: 50%;
+                background-color: #fff;
+                margin-right: 0.5rem;
+
+            }
+            .interviewerDetails{
+                .interviewerName{
+                    font-size: small;
+                    color: #50515B;
+                    font-weight: 600;
+                    margin-bottom: 0.1rem;
+
+                }
+                .interviewerdesg{
+                    font-size: smaller;
+                    font-weight: 200;
+
+                }
+            }
+        }
+        .timeDiv{
+            color: #9B9CA0;
+            font-weight: 400;
+
+        }
+    }
+    .scheduleDiv{
+      margin-top: 0.64rem;
+        .link{
+            text-decoration: none;
+            font-size: 13px;
+            color: #232EC1;
+            font-weight: 500;
+        }
+    }
+}
